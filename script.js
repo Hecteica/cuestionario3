@@ -154,13 +154,13 @@ let questions = [
       },
       {
         numb: 15,
-        question:"¿Cuáles son las competencias y funciones del Consorcio Regional de Transportes Públicos Regulares de Madrid?",
-        answer: 'La planificación de la infraestructura y de los servicios, la elaboración y aprobación de un marco tarifario común, la tramitación y resolución de autorizaciones y concesiones, la inspección y sanción, la recaudación de ingresos por tarifas, la distribución de los ingresos por tarifas ',
+        question:"¿Quién asignará el número de tren definitivo a un tren que entre en un circuito de vía de transferencia entre la cochera o depósito y la línea?",
+        answer: 'El sistema de CTC',
         options: [
-            'Solo la planificación de la infraestructura del transporte público de viajeros.',
-            'Solo la planificación de los servicios y el establecimiento de programas de explotación coordinada para todas las empresas prestadoras de los mismos.',
-            'La planificación de la infraestructura y de los servicios, la elaboración y aprobación de un marco tarifario común, la tramitación y resolución de autorizaciones y concesiones, la inspección y sanción, la recaudación de ingresos por tarifas, la distribución de los ingresos por tarifas ',
-            'Ninguna de las anteriores'
+          'El conductor del tren',
+          'El departamento de Metro',
+          'El sistema de CTC',
+          'El Consorcio'
         ]
       },
       {
@@ -197,13 +197,13 @@ let questions = [
       },
       {
         numb: 19,
-        question:"¿Qué funciones realiza el Consorcio en el marco de sus competencias?",
-        answer: 'La planificación de la infraestructura del transporte público de viajeros, la planificación de los servicios y el establecimiento de programas de explotación coordinada para todas las empresas prestadoras de los mismos, la elaboración y aprobación de un marco tarifario común, la tramitación y resolución de las autorizaciones y concesiones, la inspección y sanción, la recaudación de los ingresos por tarifas de las Empresas públicas dependientes del Consorcio, entre otras funciones.',
+        question:"¿Qué deberá hacer el conductor del tren en caso de que sea relevado por otro conductor?",
+        answer: 'Deberá conocer, memorizar y transmitir el número de tren asignado a todos los efectos',
         options: [
-            'Solo la planificación de la infraestructura del transporte público de viajeros.',
-            'Solo la planificación de los servicios y el establecimiento de programas de explotación coordinada para todas las empresas prestadoras de los mismos.',
-            'La planificación de la infraestructura del transporte público de viajeros, la planificación de los servicios y el establecimiento de programas de explotación coordinada para todas las empresas prestadoras de los mismos, la elaboración y aprobación de un marco tarifario común, la tramitación y resolución de las autorizaciones y concesiones, la inspección y sanción, la recaudación de los ingresos por tarifas de las Empresas públicas dependientes del Consorcio, entre otras funciones.',
-            'Solo la realización de las compensaciones que procedan entre todo tipo de Empresas, como consecuencia de los sistemas tarifarios combinados que se establezcan.'
+          'Deberá retirar el número de tren',
+          'Deberá conocer, memorizar y transmitir el número de tren asignado a todos los efectos',
+          'Deberá circular con el número de tren del conductor anterior',
+          'Deberá esperar la autorización del PCC para continuar la circulación'
         ]
       },
       {
@@ -292,7 +292,6 @@ let questions = [
           'Cualquier trabajador',
           'Solo los trabajadores no habilitados para conducir',
           'Solo los trabajadores que hayan pasado un examen'
-          
         ]
       },
       {
@@ -315,7 +314,6 @@ let questions = [
           'Cuando estén completamente parados',
           'Solo los trabajadores pueden acceder y salir de los trenes',
           'Solo los pasajeros pueden acceder y salir de los trenes'
-          
         ]
       },
       {
@@ -371,7 +369,6 @@ let questions = [
           'Artículo 4.1.2',
           'Artículo 4.1.3',
           'Artículo 4.1.4'
-          
         ]
       },
       {
@@ -770,7 +767,6 @@ let questions = [
           ' En la parte trasera del tren'
         ]
       },
-
 ];
 //selecting all required elements
 const start_btn = document.querySelector(".start_btn button");
